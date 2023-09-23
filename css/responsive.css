@@ -1,0 +1,21 @@
+@media screen and (max-width: 625px) {
+
+
+    .card {
+        margin: 5%;
+        width: 100%;
+        height: unset;
+        flex-direction: column;
+    }
+
+    .essence,
+    .img {
+        width: 100%;
+    }
+
+    .img {
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+    }
+}

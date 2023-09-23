@@ -1,0 +1,120 @@
+:root {
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    --Very-dark-blue: hsl(212, 21%, 14%);
+    --Dark-grayish-blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--Cream);
+    font-size: 14px;
+    font-family: "Fraunces" serif;
+    font-weight: 700;
+
+}
+
+main {
+    min-height: calc(100vh - 20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    height: 433px;
+    width: 573px;
+}
+
+.img {
+    background-image: url("/images/image-product-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    /* display: flex; */
+    /* justify-content: center; */
+
+}
+
+.essence {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 1.5rem;
+    background-color: var(--White);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.item {
+    letter-spacing: 5px;
+    line-height: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+p {
+    color: var(--Dark-grayish-blue);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+
+.pricing {
+    display: flex;
+    /* text-align: unset; */
+    align-items: center;
+    gap: 1rem;
+}
+
+.current-price {
+    color: var(--Dark-cyan);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    /* font-size: 14px; */
+}
+
+.old-price {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.btn {
+    background-color: var(--Dark-cyan);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    height: 3rem;
+    margin: 0;
+    padding: 1rem;
+}
+
+.btn:hover {
+    background-color: var(--Dark-grayish-blue);
+    cursor: pointer;
+    color: white;
+}
