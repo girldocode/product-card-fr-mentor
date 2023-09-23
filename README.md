@@ -59,4 +59,6 @@ Users should be able to:
 
 ## Author
 
-- Girl DoCode
+- Website - [website is comming...]()
+- Frontend Mentor - [@girldocode](https://www.frontendmentor.io/profile/girldocode)
+- Twitter - [@girldocode](https://www.twitter.com/girldocode)
