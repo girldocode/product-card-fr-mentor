@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: ()
+- Solution URL: (https://github.com/girldocode/product-card-fr-mentor)
 - Live Site URL: ()
 
 ## My process
@@ -60,6 +60,3 @@ Users should be able to:
 ## Author
 
 - Girl DoCode
-
-## Credits
-This template is copy paste of a repository readme from https://github.com/ygabdn29
